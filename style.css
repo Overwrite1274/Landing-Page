@@ -6,7 +6,6 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    border: green solid;
 }
 
 .header-links{
@@ -16,7 +15,11 @@
     margin-right: 200px;
     align-items: center;
     justify-content: space-between;
-    
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;   
 }
 
 .header {
@@ -28,9 +31,8 @@
 .title-container {
     background-color: #1F2937;
     display: flex;
-    height: 300px;
+    height: 400px;
     flex-direction: column;
-    border: pink solid;
 }
 
 .title-main {
@@ -62,4 +64,15 @@
 .sign-up-button {
     margin-left: 200px;
     width: 140px;
+}
+
+.title-img{
+    width: 400px;
+    height: 200px;
+    margin-left: 700px;
+    margin-top: -200px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    line-height: 200px;
 }
