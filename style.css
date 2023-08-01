@@ -76,3 +76,45 @@ a {
     text-align: center;
     line-height: 200px;
 }
+
+.info-container {
+    background-color: white;
+    display: flex;
+    height: 450px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    justify-content: space-evenly;
+}
+
+.img-one, .img-two, .img-three, .img-four {
+    border: #3882F6 solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.img-description {
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+}
+
+.img-one-subtext, .img-two-subtext, .img-three-subtext, .img-four-subtext {
+    width: 150px;
+    margin-top: -10px;
+    opacity: 75%;
+    text-align: center;
+}
